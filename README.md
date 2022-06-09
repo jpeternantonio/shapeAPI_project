@@ -35,9 +35,11 @@ To start. Clone this repository on your respective directory.
 The project use Docker to containerize the application. Make sure you have Docker installed on your machine. Run the following command:
 
 This will install the needed dependencies for the project.
+
 `docker build -t "shapes" .`
 
 This will create the database and run the server. I use port 8001 just in case your local machine is running on port 8000.
+
 `docker-compose up`
 
 You can use also python environment as a container and install the requirements.txt file.
